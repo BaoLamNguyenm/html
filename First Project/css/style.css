@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto Slab',serif;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+}
+
+.logo img{
+    width: 100%;
+    max-width: 140px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav__link{
+    font-size: 20px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-weight: 900;
+    color:#ffffff;
+    text-decoration: none;
+}
+.banner{
+    background-image: url('../images/hinh\ nen.png');
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    column-gap: 50px;
+    align-items: center;
+}
+.banner_content,
+.banner__image{
+    width: 50%;
+}
+.banner_heding{
+    font-size: 96px;
+}
+.button--soild{
+    color: #000;
+    background-color: #F4FA1A;
+    border: none;
+}
+h3.section-title {
+    font-size: 36px;
+    margin: 0;
+}
+.sud-heading{
+    font-size: 24px;
+    line-height: 31px;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+.contact_me {
+    width: 275px;
+    height: 66px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    border:1px  solid yellow;
+}
+
+.section__heading__title {
+    display: inline-block;
+}
+.section__heading__title::after {
+    content: '';
+    border-bottom: 3px solid yellow ;
+    display: block;
+    border-radius: 50px;
+}
+.about-me{
+    padding: 45px 75px 92px 75px;
+}
+.about_me_image{
+    max-width: 480px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.button{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 31px;
+    text-decoration: none;
+    border: 1px solid yellow;
+    color: white;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 23px
+}
+.banner_image img{
+    height: 500px;
+    width: auto;
+}
+.secition__content{
+    padding-inline: 70px;
+    display: flex
+}
+.secition__content--right {
+    padding-left: 200px;;
+}

@@ -1,0 +1,108 @@
+body {
+    background-color:black;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+span {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+a {
+    color: white;
+}
+ul.nav_list {
+    list-style: none; /* Xoa cai cham truoc cac item*/
+    display: flex;
+    align-items: center; /* Can chinh item vao giua chieu doc */
+    justify-content: center; /* Can chinh item vao giua chieu ngang */
+}
+li.nav_item{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+}
+.white_color{
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 140px;
+}
+.main_nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+.banner {
+    display: flex;
+}
+
+.banner_content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner_image {
+    width: 40%;
+}
+.banner_image img {
+    width: 100%;
+}
+
+main {
+    padding-top: 50px;
+}
+
+h1 {
+   
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 127px;
+}
+h2 {
+    font-size: 36px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+}
+
+.hello_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.contact_me {
+    width: 275px;
+    height: 66px;
+    border: 1px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+}
