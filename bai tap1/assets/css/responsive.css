@@ -1,0 +1,30 @@
+/* Mobile */
+@media (max-width: 740px) {
+   .members-list {
+     flex-direction: column;
+     align-items: center;
+   }
+   .s-full-width {
+      width: 100% !important;
+   }
+   .s-mt-8 {
+      margin-top: 16px !important;
+   }
+   #content .member-item  {
+      margin-top: 30px;
+      width: 100%;
+   }
+   #content .members-img {
+      width: 60%;
+   }
+   .place-list {
+      flex-direction: column;
+   }
+   .s-col-full {
+      width: 100% !important;
+   }
+   .contact-form {
+      margin-top: 16px;
+   }
+}
+
