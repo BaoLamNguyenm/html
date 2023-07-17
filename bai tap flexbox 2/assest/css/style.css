@@ -1,0 +1,73 @@
+
+a.link {
+    text-decoration: none;
+    color: black;
+    padding: 20px 15px;
+    display: inline-block;
+    font-weight: 900;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+
+}
+.header {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 70px;
+        padding-right: 70px;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+.logo img{
+    width: 100%;
+    max-width: 52px;
+    display: flex;
+}
+body {
+    font-family: 'Roboto Slab',serif;
+    background-color: white;
+    color: white;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab',serif;
+}
+.link{
+    text-decoration: underline;
+}
+a.link:hover {
+    text-decoration: underline;
+}
+.banner {
+    width: 1728px;
+}
+
+.hero-section {
+    background-image: url('../../images/hinh_nen.png');
+    height: 302px;
+    width: 1728px;
+    background-size: contain
+}
+.members-img {
+    width: 110px;
+}
+.banner-section {
+    color: black;
+    display: flex;
+}
+h1 {
+    font-size: 32px;
+}
+a.hehe {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.section-img {
+    width: 110px;
+    padding-left: 154px;
+}
