@@ -1,4 +1,16 @@
 
+body {
+    font-family: 'Roboto Slab',serif;
+    background-color: white;
+    color: #000;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab',serif;
+}
+.container{
+    padding: 0 100px;
+}
+
 a.link {
     text-decoration: none;
     color: black;
@@ -7,67 +19,93 @@ a.link {
     font-weight: 900;
 }
 ul {
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     list-style: none;
 
 }
-.header {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 70px;
-        padding-right: 70px;
-        align-items: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+.header-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-block: 25px;
 }
 .logo img{
     width: 100%;
     max-width: 52px;
     display: flex;
 }
-body {
-    font-family: 'Roboto Slab',serif;
-    background-color: white;
-    color: white;
-    margin: 0;
-    text-transform: capitalize;
-    font-family: 'Roboto Slab',serif;
-}
+
 .link{
     text-decoration: underline;
 }
 a.link:hover {
     text-decoration: underline;
 }
-.banner {
-    width: 1728px;
-}
+
 
 .hero-section {
     background-image: url('../../images/hinh_nen.png');
     height: 302px;
-    width: 1728px;
+    width: 100%;
     background-size: contain
+}
+.image-hero{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .members-img {
     width: 110px;
 }
-.banner-section {
-    color: black;
+.side-left{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    background: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.avatar-image {
+    width: 110px;
+}
+.address{
+    display: block;
+}
+
+.info-top{
     display: flex;
+    margin-top: -115px
 }
-h1 {
-    font-size: 32px;
+h1, p {
+    margin: 0;
 }
-a.hehe {
+.icon{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+span.hi {
     text-decoration: none;
     color: black;
+    padding: 20px 15px;
+    display: inline-block;
     font-weight: 900;
 }
-.section-img {
-    width: 110px;
-    padding-left: 154px;
+.fat {
+  padding: 20px 10px;
+}
+.stud{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 9px;
+    padding: 10px;
+}
+.study {
+    padding: 40px 0px;
+}
+.h3 {
+    padding: 15px 0px;
 }
